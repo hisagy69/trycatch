@@ -13,6 +13,7 @@ const filterByType = (type, ...values) => values.filter(value => typeof value ==
 		}
 	},
 
+	
 	showError = msgText => showResponseBlock('.dialog__response-block_error', msgText, '#error'),//выведет ошибку, которую передали в catch
 
 	showResults = msgText => showResponseBlock('.dialog__response-block_ok', msgText, '#ok'),//выведет сообщение что есть данные или отсутствуют
